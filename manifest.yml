@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Personality-Insighs-by-JLL
+  host: Personality-Insighs-by-JLL
+  disk_quota: 1024M
+  services:
+  - Personality-Insighs-by-JLL-personality_insights
+  - availability-monitoring-auto
